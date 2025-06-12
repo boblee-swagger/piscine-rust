@@ -19,5 +19,6 @@ fn main() -> io::Result<()>{
     }
 
     println!("{}", answer);
+    println!("{}", num_attempts);
     Ok(())
 }
