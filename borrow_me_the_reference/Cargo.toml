@@ -4,3 +4,6 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+[[test]]
+name = "01_tests" # Name your test target
+path = "borrow_me_the_reference_test/src/main.rs" # Point to the main file for this test target
